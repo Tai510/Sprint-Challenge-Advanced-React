@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Players.css';
 
 function Players(props) {
+
     return (
     <div className='Players'>
         <div className='players-Card'>

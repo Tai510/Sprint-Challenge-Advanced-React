@@ -1,10 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import WomenWorldCup from './WomenWorldCup';
+import NavBar from './NavBar'
 
 test('renders without crashing', () => {
-    render(<WomenWorldCup />)
+    render(<NavBar  />)
 });
-
-
-

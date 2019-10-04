@@ -26,6 +26,7 @@ class WomenWorldCup extends React.Component {
        render() {
          return (
            <div>
+           <h1></h1>
            {this.state.team.map(squad => (
             <Players squad={squad} />
         ))}

@@ -17,7 +17,7 @@ class WomenWorldCup extends React.Component {
          .then(res => {
            this.setState({
              team: res.data
-           });
+           })
            console.log('team Value', this.state.team)
          })
          .catch(err => console.log(err))

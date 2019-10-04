@@ -1,13 +1,34 @@
 .players-Card {
-    border: 1px solid black;
-    width: 400px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    border-radius: 5px;
+  border: 1px solid black;
+  width: 497px;
+  margin: auto;
+  text-align: start;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: 'Squada One', cursive;
+  height: 132px;
+  background: #DB6217;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.players-Card h1 {
+  margin-left: 66px;
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+}
+
+.players-Card h2 {
+  margin-left: 66px;
+  font-family: 'Notable', sans-serif;
+  font-size: 20px;
+}
+
+.players-Card span {
+    margin-left: 50px;
     font-family: 'Squada One', cursive;
-    height: 140px;
+    font-size: 28px;
 }
 
 .navbar {
@@ -101,5 +122,12 @@
       padding-left: 491px;
       font-size: 40px;
       font-family: 'Notable', sans-serif;
+  }
+
+  #name {
+    margin-left: 100px;
+  }
+  #country {
+    margin-left: 83px;
   }
   

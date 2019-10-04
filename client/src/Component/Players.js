@@ -5,8 +5,8 @@ function Players(props) {
     return (
     <div className='Players'>
         <div className='players-Card'>
-                <h1>{props.squad.name}</h1>
-                <h2>{props.squad.country}</h2>
+                <h1>Name<span id='name'>{props.squad.name}</span> </h1>
+                <h2>Country<span id='country'>{props.squad.country}</span></h2>
         </div> {/* players-Card end */}
     </div> /* Players end */
 )

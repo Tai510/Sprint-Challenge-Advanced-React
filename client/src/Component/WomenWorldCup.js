@@ -8,6 +8,7 @@ class WomenWorldCup extends React.Component {
         super ()
         this.state = {
          team: [],
+         players: [],
        }
      }
        
@@ -16,7 +17,8 @@ class WomenWorldCup extends React.Component {
          axios('http://localhost:5000/api/players')
          .then(res => {
            this.setState({
-             team: res.data
+             team: res.data ,
+             players: res.data.length
            })
            console.log('team Value', this.state.team)
          })
@@ -26,7 +28,7 @@ class WomenWorldCup extends React.Component {
        render() {
          return (
            <div>
-           <h1></h1>
+           <h1 id='NOP'>Players Count: <span>{this.state.players}</span></h1>
            {this.state.team.map(squad => (
             <Players squad={squad} />
         ))}

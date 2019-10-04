@@ -1,6 +1,6 @@
 .players-Card {
   border: 1px solid black;
-  width: 590px;
+  width: 675px;
   margin: auto;
   text-align: start;
   margin-bottom: 50px;
@@ -8,19 +8,19 @@
   border-radius: 5px;
   font-family: 'Squada One', cursive;
   height: 132px;
-  background: #DB6217;
+  background: #649465;
   color: white;
   text-shadow: 1px 1px black;
 }
 
 .players-Card h1 {
-  margin-left: 66px;
+  margin-left: 50px;
     font-family: 'Notable', sans-serif;
     font-size: 30px;
 }
 
 .players-Card h2 {
-  margin-left: 66px;
+  margin-left: 50px;
   font-family: 'Notable', sans-serif;
   font-size: 20px;
 }
@@ -73,6 +73,18 @@
     background-image: url('https://media0.giphy.com/media/26n6HRgR5KXmKH3yM/giphy.gif');
   }
 
+  #NOP {
+    border: 1px solid black;
+    padding: 30px;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  #NOP span {
+    border: 5px solid white;
+    padding: 10px;
+  }
+
   .navbar {
     background-color: #1F2022;
     border: none;
@@ -96,6 +108,7 @@
   #name {
     margin-left: 100px;
   }
+  
   #country {
     margin-left: 83px;
   }

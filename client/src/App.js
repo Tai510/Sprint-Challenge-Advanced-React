@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './Component/NavBar'
 import { DarkMode } from '../src/Hooks/DarkMode'
-
 import './App.css';
 import WomenWorldCup from './Component/WomenWorldCup';
 

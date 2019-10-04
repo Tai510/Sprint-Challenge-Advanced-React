@@ -115,12 +115,20 @@
   .navbar {
     background-color: #1F2022;
     border: none;
+    width: 100%;
   }
 
   .navbar h1 {
       color: white;
       padding-left: 491px;
       font-size: 40px;
+      font-family: 'Notable', sans-serif;
+      padding-bottom: 10px;
+  }
+
+  .navbar {
+      color: white;
+      font-size: 20px;
       font-family: 'Notable', sans-serif;
   }
 

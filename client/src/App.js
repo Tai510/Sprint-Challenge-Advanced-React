@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import NavBar from './Component/NavBar'
+import { DarkMode } from '../src/Hooks/DarkMode'
 import './App.css';
+import WomenWorldCup from './Component/WomenWorldCup';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = () => {
+
+  const [mode, toggleMode] = DarkMode('dark-mode', false)
+
+   return (
+     <div className={`App ${(mode === true ? 'dark-mode' : '')}`}>
+     <NavBar
+       toggleMode={toggleMode}
+       darkMode={mode}
+     />
+     <WomenWorldCup />
+   </div>
+   )
 }
+ 
+
 
 export default App;

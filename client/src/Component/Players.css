@@ -1,0 +1,115 @@
+.players-Card {
+  border: 1px solid black;
+  width: 675px;
+  margin: auto;
+  text-align: start;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: 'Squada One', cursive;
+  height: 132px;
+  background: #649465;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.players-Card h1 {
+  margin-left: 50px;
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+}
+
+.players-Card h2 {
+  margin-left: 50px;
+  font-family: 'Notable', sans-serif;
+  font-size: 20px;
+}
+
+.players-Card span {
+    margin-left: 50px;
+    font-family: 'Squada One', cursive;
+    font-size: 28px;
+}
+
+.navbar {
+    align-items: center;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 3%;
+    width: 94%;
+    -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  }
+  
+  .dark-mode__toggle {
+    background: papayawhip;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 20px;
+    position: relative;
+    width: 40px;
+    margin-right: 215px;
+  }
+  
+  .toggle {
+    background: #f68819;
+    border-radius: 50px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    transition: 0.2s;
+    width: 20px;
+  }
+  
+  .toggled {
+    left: 18px;
+  }
+  
+  .dark-mode {
+    color: #fff;
+    background-image: url('https://media0.giphy.com/media/26n6HRgR5KXmKH3yM/giphy.gif');
+  }
+
+  #NOP {
+    padding: 30px;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+  }
+
+  #NOP span {
+    border: 10px solid white;
+    padding: 10px;
+  }
+
+  .navbar {
+    background-color: #1F2022;
+    border: none;
+    /* width: 100%; */
+  }
+
+  .navbar h1 {
+      color: white;
+      padding-left: 208px;
+      font-size: 37px;
+      font-family: 'Notable', sans-serif;
+      padding-bottom: 10px;
+  }
+
+  .navbar {
+      color: white;
+      font-size: 20px;
+      font-family: 'Notable', sans-serif;
+  }
+
+  #name {
+    margin-left: 100px;
+  }
+  
+  #country {
+    margin-left: 83px;
+  }
+  
